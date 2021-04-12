@@ -146,37 +146,3 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP meth
 04/12/2021 15:48:22 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
 04/12/2021 15:58:58 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
 04/12/2021 15:59:41 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
-04/12/2021 16:07:38 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
-04/12/2021 16:07:43 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
-04/12/2021 16:14:24 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
-04/12/2021 16:14:29 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
-04/12/2021 16:16:45 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
-04/12/2021 16:16:50 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
-04/12/2021 16:17:24 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
-04/12/2021 16:22:05 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
-04/12/2021 16:22:45 +07:00 Query: '"(from User <generated>_1 in DbSet<User> select [<generated>_1]).FirstOrDefault()"' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
-04/12/2021 16:22:46 +07:00 Missing type map configuration or unsupported mapping.
-
-Mapping types:
-User -> UserDto
-ApplicationCore.Entities.User -> ApplicationCore.DTOs.UserDto
