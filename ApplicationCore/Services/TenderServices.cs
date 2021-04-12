@@ -43,7 +43,18 @@ namespace ApplicationCore.Services
 
         public async Task UpdateTender(Tender domain)
         {
-            _procContext.Entry(domain).State = EntityState.Modified;
+            var data = await _procContext.Tender.AsTracking().FirstOrDefaultAsync(y => y.Id == domain.Id);
+            if (data == null) throw new Exception($"Data does not exist");
+
+            data.Name = domain.Name;
+            data.RefNumber = domain.RefNumber;
+            data.ReleaseDate = domain.ReleaseDate;
+            data.ClosingDate = domain.ClosingDate;
+            data.LastUpdatedBy = domain.LastUpdatedBy;
+            data.LastUpdatedTime = domain.LastUpdatedTime;
+            data.Details = domain.Details;
+            
+            _procContext.Entry(data).State = EntityState.Modified;
             await _procContext.SaveChangesAsync();
         }
 
